@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Hello Everyone!</strong> Thousands of topics and trusted
+      instructors right here| Special savings for logged-in visitors through May
+      11.
+      <strong>1 day left!</strong>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">OkayG</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <button
+            style="margin: 10px"
+            type="button"
+            class="btn btn-outline-success"
+          >
+            Login
+          </button>
+          <button type="button" class="btn btn-outline-success">Sign Up</button>
+          <form class="d-flex px-4">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main heading section  -->
+
+    <div style="background-color: black; height: 45vh; color: white"
+    class="container1 shadow p-3 mb-5 my-3 rounded">
+    <div class="container2">
+      <h6 class="px-4 py-2 text-warning">
+        Development > Programming > Languages Python
+      </h6>
+      <h2 class="px-4 py-2">
+        Learn Python: The Complete Python <br />
+        Programming Course
+      </h2>
+      <h5 class="px-4 py-2">
+        Learn A-Z everything about Python, from the basics,<br />
+        to advanced topics like Python GUI, Python Data Analysis, and more!
+      </h5>
+
+      <div class="star px-4 py-2">
+        <p class="mx-2">4</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="mx-1">(2,115 ratings) 13,605 students</p>
+      </div>
+    </div>
+       
+        <div class="container2 ">
+          <div class="card sticky-right" style="width: 35rem;">
+            <img src="images/course2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <h5 class="card-title text-dark">Card title</h5>
+              <p  class="card-text text-dark"><span style="font-size:25px ;" class="badge bg-light text-dark">₹639</span>
+                Original Price₹3,499
+                Discount82% off</p>
+                <div class="buttons">
+                  <a href="#" class="btn btn-info px-4">Add to Cart</a>
+                  <a href="#" class="btn btn-info px-4">Buy Now</a>
+                </div>
+                <h5 class="text-dark my-4">This course includes:</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">14 hours on-demand video</li>
+                  <li class="list-group-item">1 article</li>
+                  <li class="list-group-item">3 downloadable resources</li>
+                  <li class="list-group-item">Full lifetime access</li>
+                  <li class="list-group-item">Access on mobile and TV</li>
+                  <li class="list-group-item">Certificate of completion</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+    <style>
+      .container1{
+        display: flex;
+        justify-content: space-between;
+      }
+      .buttons{
+        display: flex;
+        justify-content: space-around;
+      }
+      .checked {
+        color: orange;
+      }
+      .star {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+
+    <!-- learn card  -->
+    <div style="width: 38rem" class="card mx-4">
+      <div class="card-body">
+        <h3>What you'll learn</h3>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-check"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+          />
+        </svg>
+        Create their own Python Programs
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-check"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+          />
+        </svg>
+        Create their own Python Programs
+        <br />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-check"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+          />
+        </svg>
+        Create their own Python Programs
+      </div>
+    </div>
+
+    <!-- Accordian section  -->
+
+    <h3 class="px-4 py-4">Course content</h3>
+
+    <p class="px-4">View Total courses in our Website</p>
+
+    <div style="width: 48vw" class="accordion px-4 py-4" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Course #1
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #2
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #3
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #4
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #5
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #6
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #7
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #8
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Course #9
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Course #10
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- discription abour course  -->
+    <div style="width: 43rem" class="card mx-4">
+      <div class="card-body">
+    <h3 class="mx-4 my-2">Description</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+
+    <p>
+      <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Read More
+      </a>
+      
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class=" card-body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+    <!-- instructor  -->
+    <h3 class="my-2 mx-4">Instructors</h3>
+    <div style="width: 43rem" class="card mx-4 my-4">
+      <div class="card-body">
+
+    <h5 class="mx-4 text-primary">XYZ name_here</h5>
+    <p class="mx-4">CEO of TheCodex.me - Teaching 500,000+ Students how to code</p>
+    <div class="inst">
+      <img class="mx-4" style="border-radius: 50%; height: 10vh;" src="images/logo.jpg" alt="Avatar">
+      <p>4.3 Instructor Rating
+        <br>70,837 Reviews
+        <br>845,061 Students
+        <br>16 Courses</p>
+    </div>
+
+   
+    <!-- <h3 class="mx-4 my-2">Description</h3> -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+
+    <p>
+      <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Read More
+      </a>
+      
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class=" card-body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+      </div>
+    </div>
+      </div>
+    </div>
+    <div style="width: 43rem" class="card mx-4 my-4">
+      <div class="card-body">
+
+    <h5 class="mx-4 text-primary">XYZ name_here</h5>
+    <p class="mx-4">CEO of TheCodex.me - Teaching 500,000+ Students how to code</p>
+    <div class="inst">
+      <img class="mx-4" style="border-radius: 50%; height: 10vh;" src="images/logo.jpg" alt="Avatar">
+      <p>4.3 Instructor Rating
+        <br>70,837 Reviews
+        <br>845,061 Students
+        <br>16 Courses</p>
+    </div>
+
+   
+    <!-- <h3 class="mx-4 my-2">Description</h3> -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+
+    <p>
+      <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Read More
+      </a>
+      
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class=" card-body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+
+    <style>
+      .inst{
+        display: flex;
+      }
+    </style>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
