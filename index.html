@@ -19,6 +19,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <!-- font awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -223,13 +226,13 @@
 
     <!-- Accordian section  -->
 
-    <section class="sec3">
+    <section class="sec3 ">
 
       <h3 class="px-4 py-4">Course content</h3>
   
       <p class="px-4">View Total courses in our Website</p>
   
-      <div style="width: 43vw" class="accordion px-4 py-4" id="accordionExample">
+      <div  class="accordion w-50 px-4 py-4" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button
@@ -541,11 +544,15 @@
           </div>
         </div>
       </div>
-  
+      <style>
+        .accordion{
+          width: 43vw;
+        }
+      </style>
   
   
       <!-- discription abour course  -->
-      <div style="width: 38rem" class="card card-ab mx-4">
+      <div  class="card card-ab mx-4 w-50">
         <div class="card-body">
       <h3 class="mx-4 my-2">Description</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
@@ -577,10 +584,10 @@
     </section>
 
 
-    <section class="sec4">
+    <section class="sec4 h-50">
 
       <h3 class="my-2 mx-4">Instructors</h3>
-      <div style="width: 43rem" class="card mx-4 my-4">
+      <div class="card mx-4 my-4 w-50">
         <div class="card-body">
   
       <h5 class="mx-4 text-primary">XYZ name_here</h5>
@@ -610,7 +617,7 @@
       </div>
         </div>
       </div>
-      <div style="width: 43rem" class="card mx-4 my-4">
+      <div  class="card mx-4 my-4 w-50">
         <div class="card-body">
   
       <h5 class="mx-4 text-primary">XYZ name_here</h5>
@@ -651,7 +658,34 @@
   
     
     </section>
-  <style>
+
+
+
+    <section style="width: 43vw; height:45vh ;" class="sec5 my-2 mx-4">
+      <h3 >Students also bought</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Python for Beginners
+          <span style="color: orrange;">4.3</span><span class="fa fa-star checked px-4"></span><i class="fa-solid fa-people-group mx-2">5,536</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+    </section>
+ 
+ 
+ 
+    <style>
+      
+    </style>
+ 
+ 
+ 
+ <style>
+
+
 
     /* media quiries start  */
     /* laptop  */
@@ -694,7 +728,9 @@
       }
     .sec4{
       height: 47vh;
+      
     }
+    
 
 
     .card-body{
@@ -737,8 +773,28 @@
         width: 100%;
         height: auto;
       }
+      .accordion{
+        
+        width: 30vw;
+      }
+    .accordion-item{
+        width: 34rem;
+      }
+    .sec4{
+      height: 47vh;
+    }
 
+    .card{
+      width: 30rem;
+    }
+    .card .card-ab{
+      width: 3rem;
       
+    }
+    .card-body{
+      width: 40vw;
+    }
+
 
 }
 
